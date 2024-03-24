@@ -1,3 +1,4 @@
+import time
 from src.backend.PluginManager.ActionBase import ActionBase
 from src.backend.PluginManager.ActionBase import ActionBase
 from src.backend.DeckManagement.DeckController import DeckController
@@ -57,7 +58,8 @@ class MoveLeft(ActionBase):
             return
         self.current_state = state
         if state == 0:
-            image = Image.open(self.icon_path)
+            with Image.open(self.icon_path) as img:
+                image = img.copy()
             enhancer = ImageEnhance.Brightness(image)
             image = enhancer.enhance(0.25)
             self.set_media(image=image)

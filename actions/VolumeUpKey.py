@@ -22,6 +22,9 @@ class UpKey(ActionBase):
 
         self.icon_path = os.path.join(self.plugin_base.PATH, "assets", "volume_up.png")
 
+    def on_ready(self):
+        self.current_state = -1
+
     def on_tick(self):
         index = self.get_index()
 
@@ -48,6 +51,7 @@ class UpKey(ActionBase):
         if not self.showing_image:
             return
         self.set_media(image=None)
+        self.set_bottom_label(None)
 
     def on_key_down(self):
         # Toggle mute
@@ -82,7 +86,7 @@ class UpKey(ActionBase):
         brightness = 1
         if state == 0:
             self.set_media(image=None)
-            return
+            self.set_bottom_label(None)
         elif state == 1:
             self.set_bottom_label("Up", font_size=12)
             self.set_media(media_path=self.icon_path, size=0.8, valign=-1)
@@ -92,8 +96,7 @@ class UpKey(ActionBase):
             self.set_bottom_label("Max", font_size=12)
 
             # Set image with modified brightness
-            image = Image.open(self.icon_path)
-            enhancer = ImageEnhance.Brightness(image)
-            image = enhancer.enhance(brightness)
-
-            self.set_media(image=image, size=0.8, valign=-1)
+            with Image.open(self.icon_path) as image:
+                enhancer = ImageEnhance.Brightness(image)
+                image = enhancer.enhance(brightness)
+                self.set_media(image=image.copy(), size=0.8, valign=-1)

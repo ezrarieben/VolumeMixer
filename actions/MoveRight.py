@@ -54,9 +54,10 @@ class MoveRight(ActionBase):
             return
         self.current_state = state
         if state == 0:
-            image = Image.open(self.icon_path)
-            enhancer = ImageEnhance.Brightness(image)
-            image = enhancer.enhance(0.25)
+            with Image.open(self.icon_path) as image:
+                enhancer = ImageEnhance.Brightness(image)
+                image = enhancer.enhance(0.65)
+                self.set_media(image=image.copy())
             self.set_media(image=image)
         elif state == 1:
             self.set_media(media_path=self.icon_path)

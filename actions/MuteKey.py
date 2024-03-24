@@ -6,6 +6,7 @@ from src.backend.PluginManager.PluginBase import PluginBase
 
 import globals as gl
 from loguru import logger as log
+from fuzzywuzzy import fuzz
 
 import os
 
@@ -28,6 +29,7 @@ class MuteKey(ActionBase):
 
     def clear(self):
         self.set_media(image=None)
+        self.set_center_label(None)
 
     def on_key_down(self):
         # Toggle mute

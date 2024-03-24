@@ -11,7 +11,9 @@
     "background": {
         "overwrite": false,
         "show": false,
-        "path": null
+        "path": null,
+        "loop": true,
+        "fps": 30
     },
     "brightness": {},
     "keys": {
@@ -149,52 +151,6 @@
             "actions": [
                 {
                     "id": "com_core447_VolumeMixer::MoveLeft",
-                    "settings": {}
-                }
-            ]
-        },
-        "1x0": {
-            "labels": {
-                "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                }
-            },
-            "actions": [
-                {
-                    "id": "com_core447_VolumeMixer::VolumeUp",
                     "settings": {}
                 }
             ]
@@ -379,98 +335,6 @@
             "actions": [
                 {
                     "id": "com_core447_VolumeMixer::VolumeMute",
-                    "settings": {}
-                }
-            ]
-        },
-        "3x1": {
-            "labels": {
-                "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                }
-            },
-            "actions": [
-                {
-                    "id": "com_core447_VolumeMixer::VolumeUp",
-                    "settings": {}
-                }
-            ]
-        },
-        "4x1": {
-            "labels": {
-                "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                },
-                "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
-                    "stroke-width": 0
-                }
-            },
-            "actions": [
-                {
-                    "id": "com_core447_VolumeMixer::VolumeUp",
                     "settings": {}
                 }
             ]
@@ -701,6 +565,144 @@
             "actions": [
                 {
                     "id": "com_core447_VolumeMixer::VolumeDown",
+                    "settings": {}
+                }
+            ]
+        },
+        "1x0": {
+            "labels": {
+                "top": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "center": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "bottom": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                }
+            },
+            "actions": [
+                {
+                    "id": "com_core447_VolumeMixer::VolumeUp",
+                    "settings": {}
+                }
+            ]
+        },
+        "3x1": {
+            "labels": {
+                "top": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "center": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "bottom": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                }
+            },
+            "actions": [
+                {
+                    "id": "com_core447_VolumeMixer::VolumeMute",
+                    "settings": {}
+                }
+            ]
+        },
+        "4x1": {
+            "labels": {
+                "top": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "center": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                },
+                "bottom": {
+                    "text": "",
+                    "color": [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    "font-family": "",
+                    "font-size": 15,
+                    "stroke-width": 0
+                }
+            },
+            "actions": [
+                {
+                    "id": "com_core447_VolumeMixer::VolumeMute",
                     "settings": {}
                 }
             ]

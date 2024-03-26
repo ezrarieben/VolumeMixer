@@ -2,5 +2,6 @@
     "version": "1.0.0",
     "thumbnail": "store/Thumbnail.png",
     "id": "com_core447_VolumeMixer",
-    "name": "OS"
+    "name": "Volume Mixer",
+    "description": "Mix the volume levels of different apps."
 }

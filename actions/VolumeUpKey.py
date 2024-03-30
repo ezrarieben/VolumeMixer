@@ -24,6 +24,8 @@ class UpKey(ActionBase):
 
     def on_ready(self):
         self.current_state = -1
+        self.on_tick()
+        self.current_state = -1
 
     def on_tick(self):
         index = self.get_index()

@@ -3,5 +3,6 @@
     "thumbnail": "store/Thumbnail.png",
     "id": "com_core447_VolumeMixer",
     "name": "Volume Mixer",
-    "description": "Mix the volume levels of different apps."
+    "description": "Mix the volume levels of different apps.",
+    "short-description": "Mix your volume levels"
 }

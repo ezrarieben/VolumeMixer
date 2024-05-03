@@ -20,39 +20,24 @@
         "0x0": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -66,39 +51,24 @@
         "0x1": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -112,39 +82,24 @@
         "0x2": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -158,39 +113,24 @@
         "2x0": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -204,39 +144,24 @@
         "3x0": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -250,39 +175,24 @@
         "4x0": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -296,39 +206,24 @@
         "1x1": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -342,39 +237,24 @@
         "2x1": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -388,39 +268,24 @@
         "1x2": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -434,39 +299,24 @@
         "2x2": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -480,39 +330,24 @@
         "3x2": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -526,39 +361,24 @@
         "4x2": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -572,39 +392,24 @@
         "1x0": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -618,39 +423,24 @@
         "3x1": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },
@@ -664,39 +454,24 @@
         "4x1": {
             "labels": {
                 "top": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "center": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 },
                 "bottom": {
-                    "text": "",
-                    "color": [
-                        255,
-                        255,
-                        255,
-                        255
-                    ],
-                    "font-family": "",
-                    "font-size": 15,
+                    "text": null,
+                    "color": null,
+                    "font-family": null,
+                    "font-size": null,
                     "stroke-width": 0
                 }
             },

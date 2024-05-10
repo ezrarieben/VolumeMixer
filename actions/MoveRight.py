@@ -8,10 +8,8 @@ import os
 from PIL import Image, ImageEnhance
 
 class MoveRight(ActionBase):
-    def __init__(self, action_id: str, action_name: str,
-                 deck_controller: "DeckController", page: Page, coords: str, plugin_base: PluginBase):
-        super().__init__(action_id=action_id, action_name=action_name,
-            deck_controller=deck_controller, page=page, coords=coords, plugin_base=plugin_base)
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
         self.current_state = -1
 

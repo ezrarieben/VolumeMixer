@@ -1,6 +1,8 @@
 from src.backend.PluginManager.ActionBase import ActionBase
 from src.backend.PluginManager.PluginBase import PluginBase
 from src.backend.PluginManager.ActionHolder import ActionHolder
+from src.backend.DeckManagement.InputIdentifier import Input
+from src.backend.PluginManager.ActionInputSupport import ActionInputSupport
 
 # Import gtk modules
 import gi
@@ -46,56 +48,91 @@ class VolumeMixer(PluginBase):
         self.open_volume_mixer_holder = ActionHolder(
             plugin_base=self,
             action_base=OpenVolumeMixer,
-            action_id="com_core447_VolumeMixer::Open",
-            action_name=self.lm.get("actions.open-volume-mixer.name")
+            action_id_suffix="Open",
+            action_name=self.lm.get("actions.open-volume-mixer.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.SUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.open_volume_mixer_holder)
 
         self.exit_volume_mixer_holder = ActionHolder(
             plugin_base=self,
             action_base=ExitVolumeMixer,
-            action_id="com_core447_VolumeMixer::Exit",
-            action_name=self.lm.get("actions.exit-volume-mixer.name")
+            action_id_suffix="Exit",
+            action_name=self.lm.get("actions.exit-volume-mixer.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.exit_volume_mixer_holder)
 
         self.mute_key_holder = ActionHolder(
             plugin_base=self,
             action_base=MuteKey,
-            action_id="com_core447_VolumeMixer::VolumeMute",
-            action_name=self.lm.get("actions.mute-key.name")
+            action_id_suffix="VolumeMute",
+            action_name=self.lm.get("actions.mute-key.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.mute_key_holder)
 
         self.up_key_holder = ActionHolder(
             plugin_base=self,
             action_base=UpKey,
-            action_id="com_core447_VolumeMixer::VolumeUp",
-            action_name=self.lm.get("actions.up-key.name")
+            action_id_suffix="VolumeUp",
+            action_name=self.lm.get("actions.up-key.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.up_key_holder)
 
         self.down_key_holder = ActionHolder(
             plugin_base=self,
             action_base=DownKey,
-            action_id="com_core447_VolumeMixer::VolumeDown",
-            action_name=self.lm.get("actions.down-key.name")
+            action_id_suffix="VolumeDown",
+            action_name=self.lm.get("actions.down-key.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.down_key_holder)
 
         self.move_right_holder = ActionHolder(
             plugin_base=self,
             action_base=MoveRight,
-            action_id="com_core447_VolumeMixer::MoveRight",
-            action_name=self.lm.get("actions.move-right.name")
+            action_id_suffix="MoveRight",
+            action_name=self.lm.get("actions.move-right.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.move_right_holder)
 
         self.move_left_holder = ActionHolder(
             plugin_base=self,
             action_base=MoveLeft,
-            action_id="com_core447_VolumeMixer::MoveLeft",
-            action_name=self.lm.get("actions.move-left.name")
+            action_id_suffix="MoveLeft",
+            action_name=self.lm.get("actions.move-left.name"),
+            action_support={
+                Input.Key: ActionInputSupport.SUPPORTED,
+                Input.Dial: ActionInputSupport.UNTESTED,
+                Input.Touchscreen: ActionInputSupport.UNTESTED
+            }
         )
         self.add_action_holder(self.move_left_holder)
 

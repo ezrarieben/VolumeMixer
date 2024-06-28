@@ -47,6 +47,6 @@ class MuteKey(ActionBase):
 
     def get_index(self) -> int:
         start_index = self.plugin_base.start_index
-        own_index = self.coords[0]
+        own_index = self.input_ident.coords[0]
         index = start_index + own_index - 1 # -1 because we want to ignore the first column containing the navigation keys
         return index

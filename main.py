@@ -52,8 +52,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.open-volume-mixer.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.SUPPORTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.open_volume_mixer_holder)
@@ -65,8 +65,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.exit-volume-mixer.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.exit_volume_mixer_holder)
@@ -78,8 +78,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.mute-key.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.mute_key_holder)
@@ -91,8 +91,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.up-key.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.up_key_holder)
@@ -104,8 +104,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.down-key.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.down_key_holder)
@@ -117,8 +117,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.move-right.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.move_right_holder)
@@ -130,8 +130,8 @@ class VolumeMixer(PluginBase):
             action_name=self.lm.get("actions.move-left.name"),
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
-                Input.Dial: ActionInputSupport.UNTESTED,
-                Input.Touchscreen: ActionInputSupport.UNTESTED
+                Input.Dial: ActionInputSupport.UNSUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
             }
         )
         self.add_action_holder(self.move_left_holder)

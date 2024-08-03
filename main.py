@@ -34,6 +34,7 @@ from plugins.com_core447_VolumeMixer.actions.VolumeUpKey import UpKey
 from plugins.com_core447_VolumeMixer.actions.VolumeDownKey import DownKey
 from plugins.com_core447_VolumeMixer.actions.MoveRight import MoveRight
 from plugins.com_core447_VolumeMixer.actions.MoveLeft import MoveLeft
+from .actions.Dial import Dial
 
 # Add plugin to sys.paths
 sys.path.append(os.path.dirname(__file__))
@@ -118,7 +119,7 @@ class VolumeMixer(PluginBase):
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
                 Input.Dial: ActionInputSupport.UNSUPPORTED,
-                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
+                Input.Touchscreen: ActionInputSupport.UNTESTED
             }
         )
         self.add_action_holder(self.move_right_holder)
@@ -131,10 +132,23 @@ class VolumeMixer(PluginBase):
             action_support={
                 Input.Key: ActionInputSupport.SUPPORTED,
                 Input.Dial: ActionInputSupport.UNSUPPORTED,
-                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
+                Input.Touchscreen: ActionInputSupport.UNTESTED
             }
         )
         self.add_action_holder(self.move_left_holder)
+
+        self.dial_holder = ActionHolder(
+            plugin_base=self,
+            action_base=Dial,
+            action_id_suffix="Dial",
+            action_name=self.lm.get("actions.dial.name"),
+            action_support={
+                Input.Key: ActionInputSupport.UNSUPPORTED,
+                Input.Dial: ActionInputSupport.SUPPORTED,
+                Input.Touchscreen: ActionInputSupport.UNSUPPORTED
+            }
+        )
+        self.add_action_holder(self.dial_holder)
 
         # Register plugin
         self.register(
@@ -146,6 +160,7 @@ class VolumeMixer(PluginBase):
 
 
         self.register_page(os.path.join(self.PATH, "pages", "VolumeMixer.json"))
+        self.register_page(os.path.join(self.PATH, "pages", "VolumeMixerSDPlus.json"))
 
         
 

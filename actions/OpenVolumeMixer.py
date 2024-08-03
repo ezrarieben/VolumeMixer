@@ -28,7 +28,11 @@ class OpenVolumeMixer(ActionBase):
         # Reset position
         self.plugin_base.start_index = 0
 
-        page_path = os.path.join(self.plugin_base.PATH, "pages", "VolumeMixer.json")
+        page_name = "VolumeMixer"
+        if self.deck_controller.deck.dial_count() > 0:
+            page_name = "VolumeMixerSDPlus"
+
+        page_path = os.path.join(self.plugin_base.PATH, "pages", f"{page_name}.json")
         if not os.path.exists(page_path):
             log.error("Could not find volume mixer page. Consider reinstalling the plugin.")
             return

@@ -8,6 +8,7 @@ from src.backend.PluginManager.PluginBase import PluginBase
 import globals as gl
 from loguru import logger as log
 from fuzzywuzzy import fuzz
+import math
 
 import os
 
@@ -27,12 +28,24 @@ class Dial(ActionBase):
 
         inputs = self.plugin_base.pulse.sink_input_list()
         if index < len(inputs):
-            self.set_label(text=inputs[index].name, position="center", font_size=16)
+            if inputs[index].mute == 0:
+                # Display volume % if input is not muted
+                volumeLabel = str(math.ceil(inputs[index].volume.value_flat*100)) + "%"
+                labelColor = [255, 255, 255]
+            else:
+                # Display "muted" text if input is muted
+                volumeLabel = "- " + self.plugin_base.lm.get("input.muted").upper() + " -"
+                labelColor = [255, 0, 0]
+            
+            self.set_top_label(text=volumeLabel, color=labelColor, font_size=16)
+            self.set_center_label(text=inputs[index].name, font_size=18)
+            self.set_bottom_label(text=inputs[index], font_size=16)
         else:
             self.clear()
 
     def clear(self):
         self.set_media(image=None)
+        self.set_top_label(None)
         self.set_center_label(None)
 
     def event_callback(self, event, data):

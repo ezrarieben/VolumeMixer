@@ -28,17 +28,7 @@ class Dial(ActionBase):
 
         inputs = self.plugin_base.pulse.sink_input_list()
         if index < len(inputs):
-            if inputs[index].mute == 0:
-                # Display volume % if input is not muted
-                volumeLabel = str(math.ceil(inputs[index].volume.value_flat*100)) + "%"
-                labelColor = [255, 255, 255]
-            else:
-                # Display "muted" text if input is muted
-                volumeLabel = "- " + self.plugin_base.lm.get("input.muted").upper() + " -"
-                labelColor = [255, 0, 0]
-            
-            self.set_top_label(text=volumeLabel, color=labelColor, font_size=16)
-            self.set_center_label(text=inputs[index].name, font_size=18)
+            self.update_labels()
         else:
             self.clear()
 
@@ -71,8 +61,27 @@ class Dial(ActionBase):
 
             self.plugin_base.pulse.volume_set_all_chans(obj=inputs[index], vol=max(0, volume))
 
+        self.update_labels()
+
     def get_index(self) -> int:
         start_index = self.plugin_base.start_index
         own_index = int(self.input_ident.json_identifier)
         index = start_index + own_index
         return index
+
+    def update_labels(self):
+        inputs = self.plugin_base.pulse.sink_input_list()
+        index = self.get_index()
+       
+        if inputs[index].mute == 0:
+            # Display volume % if input is not muted
+            volumeLabel = str(math.ceil(inputs[index].volume.value_flat*100)) + "%"
+            labelColor = [255, 255, 255]
+        else:
+            # Display "muted" text if input is muted
+            volumeLabel = "- " + self.plugin_base.lm.get("input.muted").upper() + " -"
+            labelColor = [255, 0, 0]
+        
+        self.set_top_label(text=volumeLabel, color=labelColor, font_size=16)
+        self.set_center_label(text=inputs[index].name, font_size=18)
+        

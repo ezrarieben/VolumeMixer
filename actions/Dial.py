@@ -39,7 +39,6 @@ class Dial(ActionBase):
             
             self.set_top_label(text=volumeLabel, color=labelColor, font_size=16)
             self.set_center_label(text=inputs[index].name, font_size=18)
-            self.set_bottom_label(text=inputs[index], font_size=16)
         else:
             self.clear()
 
